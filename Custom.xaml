@@ -4,9 +4,9 @@
                    Text="欢迎使用GSZYpack！" />
         <TextBlock Margin="0,0,0,10"
                    Text="目前的最新版本是1.0.3，你可以使用下面的按钮更新你的GSZYpack。" />
-        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+        <MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="下载链接" EventType="打开网页" EventData="https://pan.baidu.com/s/1MOvzS6ACcrQs9PVjev-dvA?pwd=GSZY" />
-        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+        <MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="github主页" EventType="打开网页" EventData="https://github.com/GSZYmc" />
     </StackPanel>
 </local:MyCard>
